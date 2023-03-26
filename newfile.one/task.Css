@@ -1,0 +1,39 @@
+body{
+    box-sizing: border-box;
+    margin:0;
+    background-color: rgb(59, 75, 70);
+}
+.pics>img{
+    width: 70%;
+    margin: 0;
+    margin-left: 20%;
+ 
+}
+.pics{
+    margin-top: 10%;
+    width: 70%;
+    border-radius: solid black 2px;
+}
+.slider{
+    position: relative;
+    border: none;
+    width: 100%;
+    margin-left: 5%;
+}
+.arrow{
+    position: fixed;
+    cursor: pointer;
+    top:45%; 
+   margin-left: 20%;
+   margin-right: 32%;
+    background-color: rgba(176, 216, 226, 0.447);
+    padding:8px;
+    border-radius: 30%;
+    border-color: blue;
+}
+.next{
+    right:10px
+}
+.prev{
+    left:10px;
+}
